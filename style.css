@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.task {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.pending {
+    background: #ffe6e6;
+}
+
+.completed {
+    background: #e6ffe6;
+}
